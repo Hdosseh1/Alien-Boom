@@ -189,3 +189,21 @@ clk, reset, btn
 5. Program the FPGA and connect a VGA monitor.
 
 > **Clock note:** The design expects a **100 MHz** input clock. If your board uses a different frequency, adjust the clock divider in `vga_sync.vhd` and the refresh counter constant in `ast_7seg.vhd` accordingly.
+>
+## Demo
+
+### Board setup
+Basys3 FPGA board running Alien-Boom, with the 7-segment display showing score/lives.
+
+![Basys3 board showing score and lives](images/board-score-lives.jpg)
+![Basys3 board during another game state](images/board-alt-state.jpg)
+
+### Gameplay screen
+Aliens rendered on the VGA display while the player ship is positioned at the bottom-left.
+
+![Gameplay with aliens on screen](images/gameplay-aliens.jpg)
+
+### Win screen
+The game displays a victory message after all 5 aliens are destroyed.
+
+![YOU WIN screen](images/you-win.jpg)

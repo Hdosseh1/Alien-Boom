@@ -196,7 +196,6 @@ clk, reset, btn
 Basys3 FPGA board running Alien-Boom, with the 7-segment display showing score/lives.
 
 ![Basys3 board showing score and lives](images/board-score-lives.jpg)
-![Basys3 board during another game state](images/board-alt-state.jpg)
 
 ### Gameplay screen
 Aliens rendered on the VGA display while the player ship is positioned at the bottom-left.
@@ -207,3 +206,4 @@ Aliens rendered on the VGA display while the player ship is positioned at the bo
 The game displays a victory message after all 5 aliens are destroyed.
 
 ![YOU WIN screen](images/you-win.jpg)
+![Basys3 board during another game state](images/board-alt-state.jpg)
